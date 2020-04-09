@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-def toGray(img):
+def toGray(self,img):
     height, width, channels = img.shape
     n_img=np.zeros((height,width),np.uint8)
 
