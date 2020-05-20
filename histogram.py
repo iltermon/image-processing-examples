@@ -9,7 +9,7 @@ def histogram(img):
         for j in range(height):
             hist[img[i,j]+1]=hist[img[i,j]+1]+1
     return hist
-img = cv2.imread('E:\\cameraman.tif',0)
+img = cv2.imread('photos/cameraman.tif',0)
 cv2.imshow("img",img)
 plt.plot(histogram(img))
 plt.show()
