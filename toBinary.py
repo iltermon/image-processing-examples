@@ -23,7 +23,7 @@ def toBinary(img,threshold):
 
 img = cv2.imread("E://resim.png")
 cv2.imshow("img",img)
-print(type(toGray(img)[1,1]))
+
 cv2.imshow("n_img_gray",toGray(img))
 cv2.imshow("n_img_binary", toBinary(toGray(img),125))
 cv2.waitKey(0)
